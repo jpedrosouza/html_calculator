@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Calculator</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <input id="input" type="number" placeholder="Digite um valor" />
+      <div class="buttons">
+        <button id="multiplication" class="button">x</button>
+        <button id="subtraction" class="button">-</button>
+        <button id="addition" class="button">+</button>
+        <button id="division" class="button">/</button>
+      </div>
+      <button onclick="calculate()" id="calculate">Calcular</button>
+    </div>
+  </body>
+</html>

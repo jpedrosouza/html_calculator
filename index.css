@@ -1,0 +1,35 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+#input {
+  width: 170px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  border: solid 1px black;
+}
+
+.buttons {
+  padding-bottom: 20px;
+}
+
+.button {
+  width: 45px;
+  height: 40px;
+}
+
+#calculate {
+    height: 30px;
+}
